@@ -17,11 +17,17 @@ body{
   z-index: -1;
 }
 main{
-  background-color: $primary-color;
   color: $text-primary-color;
   width: 100%;
-  min-height: 800px;
   display: flex;
+  .container{
+    background-image: linear-gradient(to bottom right, $primary-color, $secondary-color);
+    margin: auto;
+    min-height: 1000px;
+    width: 80%;
+    border: solid $secondary-color;
+    border-width: 0px 5px;
+  }
 }
 header{
   background-color: $secondary-color;
