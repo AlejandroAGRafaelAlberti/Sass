@@ -8,18 +8,13 @@
     <title>Darkest Proyect</title>
 </head>
 <body>
+
     <video autoplay loop id="bg-video" preload="auto" muted>
         <source src="assets/bg_video.mp4" type="video/mp4" />
         <source src="assets/bg_video.webm" type="video/webm" />
         <source src="assets/bg_video.ogv" type="video/ogg" />
         Su navegador no soporta contenido multimedia.
     </video>
-    <audio autoplay>
-        <source src="assets/bg_music.mp3"/>
-        <source src="assets/bg_music.opus"/>
-        <source src="assets/bg_music.ogg"/>
-        Su navegador no soporta contenido multimedia.
-      </audio>
     <header>
         <img src="img/logo.svg" alt="logo" id="logo">
         <h1>Darkest Proyect</h1>
@@ -45,6 +40,13 @@
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <h2>Soundtrack del Juego</h2>
+        <audio autoplay loop controls>
+            <source src="assets/bg_music.mp3"/>
+            <source src="assets/bg_music.opus"/>
+            <source src="assets/bg_music.ogg"/>
+            Su navegador no soporta contenido multimedia.
+          </audio>
         </div>
     </main>
     <script src="./js/index.js"></script>
