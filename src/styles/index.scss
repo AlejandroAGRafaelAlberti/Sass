@@ -1,5 +1,6 @@
 @import "carrousel";
 @import "variables";
+@import "tabs";
 @font-face {
   font-family: 'Dwarven Axe';
   src: url('/src/assets/DwarvenAxe\ BB\ W00\ Regular.ttf');
@@ -42,9 +43,14 @@ main{
     margin: auto;
     margin-top: 50px;
   }
+  h3{
+    margin: 50px 100px;
+    padding: 30px 20px;
+    background: $secondary-color;
+  }
 }
 header{
-  background-image: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+  background-image: linear-gradient($terciary-color,$secondary-color);
   display: flex;
   align-items: center;
   padding: 0px 100px;
